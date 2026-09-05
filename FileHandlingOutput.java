@@ -1,4 +1,3 @@
-
 package file.handling.output;
 
 import java.io.*;
@@ -25,6 +24,8 @@ public class FileHandlingOutput {
         fos.close();
         
         }
+
+           
         catch(Exception e){
             
             System.out.println(e.getMessage());
